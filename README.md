@@ -24,12 +24,12 @@ Repositorio oficial del estándar de gobernanza, arquitectura, calidad y subagen
 
 ### En Windows (PowerShell):
 ```powershell
-irm https://raw.githubusercontent.com/TU_ORGANIZACION_O_USUARIO/dkript-governance/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/dkript-web/Dkript-Governance/main/install.ps1 | iex
 ```
 
 ### En Linux / macOS (Bash):
 ```bash
-curl -fsSL https://raw.githubusercontent.com/TU_ORGANIZACION_O_USUARIO/dkript-governance/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/dkript-web/Dkript-Governance/main/install.sh | bash
 ```
 
 ---
@@ -40,10 +40,10 @@ También puedes instalarlo directamente usando la CLI:
 
 ```bash
 # Vía CLI directa
-agy plugin install https://github.com/TU_ORGANIZACION_O_USUARIO/dkript-governance.git
+agy plugin install https://github.com/dkript-web/Dkript-Governance.git
 
 # O en el chat del asistente
-/plugin marketplace add https://github.com/TU_ORGANIZACION_O_USUARIO/dkript-governance.git
+/plugin marketplace add https://github.com/dkript-web/Dkript-Governance.git
 /plugin install dkript-governance
 ```
 
@@ -54,7 +54,7 @@ agy plugin install https://github.com/TU_ORGANIZACION_O_USUARIO/dkript-governanc
 Para que todo el equipo utilice automáticamente este paquete en un proyecto específico sin configuraciones locales previas, clona este repositorio en la raíz de tu proyecto dentro de la carpeta `.agents/`:
 
 ```bash
-git submodule add https://github.com/TU_ORGANIZACION_O_USUARIO/dkript-governance.git .agents/plugins/dkript-governance
+git submodule add https://github.com/dkript-web/Dkript-Governance.git .agents/plugins/dkript-governance
 ```
 Antigravity detectará automáticamente las reglas y subagentes para todos los desarrolladores del repositorio.
 
